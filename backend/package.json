@@ -16,19 +16,30 @@
   "author": "MN Raza",
   "license": "ISC",
   "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.1",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^22.14.1",
+    "@types/ws": "^8.18.1",
     "nodemon": "^3.1.9",
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "bcryptjs": "^3.0.2",
+    "@hookform/resolvers": "^5.1.1",
+    "@types/cookie-parser": "^1.4.9",
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.13.2",
-    "ts-node": "^10.9.2"
+    "mongoose": "^7.6.3",
+    "swagger-ui-express": "^5.0.1",
+    "winston": "^3.17.0",
+    "ws": "^8.18.2",
+    "zod": "^3.25.67"
   }
 }

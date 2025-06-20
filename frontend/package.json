@@ -10,12 +10,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@date-io/date-fns": "^3.2.1",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
+    "@hookform/resolvers": "^5.1.1",
+    "@mui/icons-material": "^7.1.2",
+    "@mui/lab": "7.0.0-beta.14",
     "@mui/material": "^7.1.2",
+    "@mui/x-date-pickers": "^8.5.2",
     "@reduxjs/toolkit": "^2.8.2",
     "@stomp/stompjs": "^7.1.1",
     "axios": "^1.10.0",
+    "date-fns": "^4.1.0",
     "dayjs": "^1.11.13",
     "i18next": "^25.2.1",
     "notistack": "^3.0.2",
@@ -25,6 +31,7 @@
     "react-i18next": "^15.5.3",
     "react-redux": "^9.2.0",
     "react-router-dom": "^7.6.2",
+    "recharts": "^2.15.3",
     "sockjs-client": "^1.6.1",
     "zod": "^3.25.67"
   },
